@@ -1,0 +1,38 @@
+/*************************************************
+*
+*	Andreas Ekman Newton Java 2
+*
+*	CREATE 	-- Source C:\Database\Heroes\CREATE.txt
+*
+**************************************************/
+
+DROP SCHEMA IF EXISTS heroes;
+
+/*
+*	Setting database to heroes
+*/
+CREATE SCHEMA IF NOT EXISTS heroes;
+USE heroes;
+
+/*
+*	Creating new tables
+*/
+-- Create table books
+DROP TABLE IF EXISTS hero;
+CREATE TABLE hero(
+	uniqueID INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	firstName VARCHAR (20) NOT NULL,
+	lastName VARCHAR (20) NOT NULL,
+	heroName VARCHAR (20) NOT NULL,
+	height INT (40) NOT NULL,
+	weight INT (10) NOT NULL,
+	age INT (40) NOT NULL,
+	uncommonPowers VARCHAR (40) NOT NULL
+	);
+	
+-- Insert data to hero
+INSERT INTO hero (firstName, lastName, heroName, height, weight, age, uncommonPowers) VALUES
+	("Robert", "Banner", "Hulk", 244, 630, 40, "Radiation Immunity"),
+	("Thos", "Odinson", "Thor", 198, 288, 2600, "Atmokinesis");
+		
+SELECT * FROM hero;
