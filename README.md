@@ -1,9 +1,8 @@
 # SuperHeroesListViewer
-Init
 
-Schoolproject.
+This was a Schoolproject.
 
-Goal was to create a list view of a personclass and to be able to sort the list using:
+The goal was to create a list view of a personclass and to be able to sort the list using:
 * JavaFX
 * ListView
 * Sorting functions
