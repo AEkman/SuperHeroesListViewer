@@ -15,3 +15,5 @@ I decided to go with a Super Hero theme and added som extra features:
 * Extra menu
 * Feature to add new heroes
 * Dialog boxes for feedback
+
+![Demonstration](https://github.com/AEkman/SuperHeroesListViewer/blob/master/Hero%20List%20Viewer%20Demo.jpg?raw=true)
